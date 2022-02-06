@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    /* display: block; */
+}
+header {
+    background-color: rgb(38, 38, 41);   
+}
+.hidemenu {
+    padding-left: 80px;
+}
+.hidemenu div {
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+}
+.hidemenu div a {
+    display: block;
+    color: white;
+    padding-top: 5px;
+
+}
+.hidemenu div h4 {
+    color: white;
+    font-size: 28px;
+}
+.hidemenu div p {
+    color: rgb(92, 92, 100);
+    font-size: 16px;
+}
+.contact {
+    float: right;
+}
+.album {
+    padding-left: 70px;
+    padding-top: 30px;
+}
+img {
+    display: inline-block;
+}
+.album div h4 {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+
+}
+.section1 {
+    text-align: center;
+    padding: 80px;
+}
+.section1 div h2 {
+    font-size: 36px;
+    color: rgb(82, 82, 82);
+}
+.section1 div p {
+    font-size: 22px;
+    color: rgb(112, 112, 112);
+    padding: 10px;
+}
+.bluebutton {
+    background-color: rgb(74, 74, 255);
+    padding: 15px;
+    color: white;
+    border-radius: 0.5rem;
+    border-color: white;
+    font-size: 16px;
+}
+.greybutton {
+    background-color: rgb(87, 87, 87);
+    padding: 15px;
+    color: white;
+    border-radius: 0.5rem;
+    border-color: white;
+    font-size: 16px
+}
+.greybox {
+    height: 300px;
+    width: 420px;
+    text-align: center;
+    background-color: gray;
+    justify-content: center;
+}
+.greybox p {
+    color: white;
+    font-size: 20px;
+    padding-top: 140px;
+    margin: 0;
+}
+.section2 {
+    width: 420px;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(245, 239, 239);
+    margin: 30px;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.boxtext div{
+    padding: 10px 10px;
+}
+.boxtext div button {
+    padding: 5px 10px;
+    display: inline-block;
+}
+.boxtext div p {
+    display: inline-block;
+    float: right;
+}
